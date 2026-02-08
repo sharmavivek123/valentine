@@ -24,10 +24,6 @@ btnNo.addEventListener('mouseenter', function () {
     btnNo.style.transform = 'translate(' + x + 'px, ' + y + 'px)';
 });
 
-btnNo.addEventListener('click', function (e) {
-    e.preventDefault();
-    showBigMessage('Say Yes! ♥');
-});
 
 document.querySelector('.btn-yes').addEventListener('click', function () {
     showBigMessage('I love you too! ♥♥♥');
